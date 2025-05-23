@@ -29,9 +29,13 @@ REDDIT_CLIENT_SECRET = st.secrets["reddit"]["client_secret"]
 REDDIT_USER_AGENT = st.secrets["reddit"]["user_agent"]
 
 # --- NLTK Downloads ---
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+nltk.download('wordnet', quiet=True)
+
+# nltk.download('punkt')
+# nltk.download('stopwords')
+# nltk.download('wordnet')
 
 # --- SIDEBAR ---
 st.sidebar.title('Reddit Mental Health Analyzer')
