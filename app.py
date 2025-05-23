@@ -24,9 +24,9 @@ warnings.filterwarnings('ignore')
 # 1. Go to https://www.reddit.com/prefs/apps
 # 2. Create a new 'script' app and get your client_id, client_secret, and set a user_agent (any string)
 # 3. Fill them below:
-REDDIT_CLIENT_ID = ''
-REDDIT_CLIENT_SECRET = ''
-REDDIT_USER_AGENT = ''
+REDDIT_CLIENT_ID = st.secrets["reddit"]["client_id"]
+REDDIT_CLIENT_SECRET = st.secrets["reddit"]["client_secret"]
+REDDIT_USER_AGENT = st.secrets["reddit"]["user_agent"]
 
 # --- NLTK Downloads ---
 nltk.download('punkt')
