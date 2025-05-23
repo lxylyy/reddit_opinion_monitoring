@@ -24,9 +24,9 @@ warnings.filterwarnings('ignore')
 # 1. Go to https://www.reddit.com/prefs/apps
 # 2. Create a new 'script' app and get your client_id, client_secret, and set a user_agent (any string)
 # 3. Fill them below:
-REDDIT_CLIENT_ID = 'MYBnuzkyiy4hmdtDyk5m4w'
-REDDIT_CLIENT_SECRET = 'Iptii4SvNTaUNbM3TrWCIkTqC5G_2Q'
-REDDIT_USER_AGENT = 'MentalHealthAnalyzer/0.1'
+REDDIT_CLIENT_ID = ''
+REDDIT_CLIENT_SECRET = ''
+REDDIT_USER_AGENT = ''
 
 # --- NLTK Downloads ---
 nltk.download('punkt')
