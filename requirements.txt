@@ -1,0 +1,15 @@
+streamlit
+praw
+nltk
+gensim
+pyLDAvis
+matplotlib
+seaborn
+plotly
+transformers
+torch
+scikit-learn
+pandas
+requests
+beautifulsoup4
+sentence-transformers 
